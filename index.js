@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.send("Toy Tree Server is running");
 });
 
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.ukmkwhb.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -32,17 +32,40 @@ async function run() {
 
     const toyCollection = client.db("toysDB").collection("toys");
 
-    app.get('/toys', async(req, res) => {
-        const result = await toyCollection.find().toArray();
-        res.send(result)
-    })
+    app.get("/toys", async (req, res) => {
+      const result = await toyCollection.find().toArray();
+      res.send(result);
+    });
 
-    app.post("/addToys", async(req, res) => {
-        const doc = req.body;
-        const result = await toyCollection.insertOne(doc)
-        res.send(result)
-    })
+    app.post("/addToys", async (req, res) => {
+      const doc = req.body;
+      const result = await toyCollection.insertOne(doc);
+      res.send(result);
+    });
 
+    app.get("/category/:category", async (req, res) => {
+      const category = req.params.category;
+      const option = {
+        projection: {
+          name: 1,
+          photoUrl: 1,
+          price: 1,
+          rating: 1,
+          subcategory: 1,
+        },
+      };
+      const result = await toyCollection
+        .find({ subcategory: category }, option)
+        .toArray();
+      res.send(result);
+    });
+
+    app.get("/categoryDetails/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await toyCollection.findOne(query);
+      res.send(result);
+    });
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
