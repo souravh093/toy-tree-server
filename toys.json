@@ -1,0 +1,167 @@
+[
+    {
+    "name": "Optimus Prime",
+    "photoUrl": "https://i.ibb.co/K2qNpz3/toy9.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "transformer",
+    "price": "49.99",
+    "rating": "4.7",
+    "availableQuantity": "10",
+    "detailsDescription": "Optimus Prime is the wise and powerful leader of the Autobots, sworn to protect the innocent and fight against the evil Decepticons."
+    },
+    {
+    "name": "Bumblebee RC Car",
+    "photoUrl": "https://i.ibb.co/Mhb1Scf/toy11.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "transformer",
+    "price": "39.99",
+    "rating": "4.4",
+    "availableQuantity": "15",
+    "detailsDescription": "Remote control Bumblebee car with realistic Transformers design, perfect for racing and performing stunts."
+    },
+    {
+    "name": "Transformers Construct-Bots",
+    "photoUrl": "https://i.ibb.co/NF5msDP/toy12.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "transformer",
+    "price": "29.99",
+    "rating": "4.2",
+    "availableQuantity": "12",
+    "detailsDescription": "Build and customize your own Transformers robots with the Construct-Bots building sets."
+    },
+    {
+    "name": "Transformers Optimus Prime Helmet",
+    "photoUrl": "https://i.ibb.co/fNL760L/toy13.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "transformer",
+    "price": "19.99",
+    "rating": "4.1",
+    "availableQuantity": "8",
+    "detailsDescription": "Wearable Optimus Prime helmet with voice-changing effects for immersive Transformers roleplay adventures."
+    },
+    {
+    "name": "Decepticon Attack Playset",
+    "photoUrl": "https://i.ibb.co/ydP3vch/toy10.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "transformer",
+    "price": "59.99",
+    "rating": "4.6",
+    "availableQuantity": "6",
+    "detailsDescription": "Engage in epic battles between Autobots and Decepticons with the Decepticon Attack Playset."
+    },
+    {
+    "name": "Iron Man Action Figure",
+    "photoUrl": "https://i.ibb.co/PhcjxJ0/toy14.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "avenger",
+    "price": "14.99",
+    "rating": "4.2",
+    "availableQuantity": "15",
+    "detailsDescription": "Wearable Spider-Man web shooter that shoots foam web projectiles for exciting roleplay adventures."
+    },
+    {
+    "name": "Captain America Shield",
+    "photoUrl": "https://i.ibb.co/QXG8jZm/toy15.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "avenger",
+    "price": "39.99",
+    "rating": "4.8",
+    "availableQuantity": "10",
+    "detailsDescription": "Officially licensed Captain America shield replica with adjustable straps for cosplay and display."
+    },
+    {
+    "name": "Hulk Smash Hands",
+    "photoUrl": "https://i.ibb.co/pyhX8pV/toy4.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "avenger",
+    "price": "24.99",
+    "rating": "4.4",
+    "availableQuantity": "8",
+    "detailsDescription": "Soft foam Hulk hands that allow you to unleash your inner Hulk and engage in smashing action."
+    },
+    {
+    "name": "Spider-Man Web Shooter",
+    "photoUrl": "https://i.ibb.co/YD4tzRv/toy7.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "avenger",
+    "price": "14.99",
+    "rating": "4.2",
+    "availableQuantity": "15",
+    "detailsDescription": "Wearable Spider-Man web shooter that shoots foam web projectiles for exciting roleplay adventures."
+    },
+    {
+    "name": "Black Widow Costume",
+    "photoUrl": "https://i.ibb.co/H2fJjHN/toy16.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "avanger",
+    "price": "29.99",
+    "rating": "4.6",
+    "availableQuantity": "12",
+    "detailsDescription": "Black Widow costume inspired by the Marvel movies, includes jumpsuit, belt, and wrist gauntlets."
+    },
+    {
+    "name": "Lightsaber Replica",
+    "photoUrl": "https://i.ibb.co/p2D51Rr/toy21.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "starwars",
+    "price": "99.99",
+    "rating": "4.7",
+    "availableQuantity": "10",
+    "detailsDescription": "Realistic lightsaber replica with sound and light effects, perfect for Star Wars enthusiasts and collectors."
+    },
+    {
+    "name": "Millennium Falcon LEGO Set",
+    "photoUrl": "https://i.ibb.co/jzjvBQX/toy18.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "starwars",
+    "price": "79.99",
+    "rating": "4.8",
+    "availableQuantity": "5",
+    "detailsDescription": "Build the iconic Millennium Falcon with this LEGO set, featuring detailed interior and mini-figures of Star Wars characters."
+    },
+    {
+    "name": "Darth Vader Helmet",
+    "photoUrl": "https://i.ibb.co/Pjkvz06/toy17.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "starwars",
+    "price": "89.99",
+    "rating": "4.6",
+    "availableQuantity": "8",
+    "detailsDescription": "Authentic Darth Vader helmet replica with adjustable straps, perfect for cosplay and display."
+    },
+    {
+    "name": "Star Wars X-Wing Drone",
+    "photoUrl": "https://i.ibb.co/wdd3pVN/toy20.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "starwars",
+    "price": "$59.99",
+    "rating": "4.4",
+    "availableQuantity": "12",
+    "detailsDescription": "Remote control X-Wing drone with Star Wars design, capable of aerial maneuvers and battles."
+    },
+    {
+    "name": "BB-8 Plush Toy",
+    "photoUrl": "https://i.ibb.co/ySHqsPH/toy30.png",
+    "sellerName": "Sourave halder",
+    "sellerEmail": "souravofficial.web@gmail.com",
+    "subcategory": "starwars",
+    "price": "19.99",
+    "rating": "4.3",
+    "availableQuantity": "16",
+    "detailsDescription": "Soft and cuddly BB-8 plush toy, a beloved droid character from the Star Wars franchise."
+    }
+    ]
