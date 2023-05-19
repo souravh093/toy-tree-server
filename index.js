@@ -32,7 +32,7 @@ async function run() {
     const toyCollection = client.db("toysDB").collection("toys");
 
     app.get("/toys", async (req, res) => {
-      const result = await toyCollection.find().toArray();
+      const result = await toyCollection.find().limit(20).toArray();
       res.send(result);
     });
 
@@ -71,7 +71,7 @@ async function run() {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) };
       const result = await toyCollection.deleteOne(query);
-      res.send(result)
+      res.send(result);
     });
 
     app.get("/category/:category", async (req, res) => {
@@ -126,6 +126,8 @@ async function run() {
   }
 }
 run().catch(console.dir);
+
+const toyCollection = client.db("toysDB").collection("toys");
 
 app.listen(port, () => {
   console.log(`server is running on port ${port}`);
