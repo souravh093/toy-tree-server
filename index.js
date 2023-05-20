@@ -27,7 +27,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
 
     const toyCollection = client.db("toysDB").collection("toys");
 
@@ -99,8 +99,9 @@ async function run() {
     });
 
     app.get("/myToys/:email", async (req, res) => {
+      const sortOrder = req.query.sortOrder === 'desc' ? -1 : 1;
       const email = req.params.email;
-      const result = await toyCollection.find({ sellerEmail: email }).toArray();
+      const result = await toyCollection.find({ sellerEmail: email }).sort({price: sortOrder}).toArray();
       res.send(result);
     });
 
@@ -116,7 +117,7 @@ async function run() {
     });
 
     // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
+    // await client.db("admin").command({ ping: 1 });
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
     );
@@ -126,8 +127,6 @@ async function run() {
   }
 }
 run().catch(console.dir);
-
-const toyCollection = client.db("toysDB").collection("toys");
 
 app.listen(port, () => {
   console.log(`server is running on port ${port}`);
